@@ -156,7 +156,8 @@ aside h2
 
 	#banniere h1
 	{
-		font-size: 2em;
+		font-size: 3em;
+		word-wrap: break-word;
 		padding-left: 15px;
 	}
 
