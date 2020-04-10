@@ -1,0 +1,177 @@
+#bloc_page
+{
+	width: 950px;
+	margin: auto;
+}
+
+body
+{
+	font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+/* En-tête */
+header
+{
+	height: 162px;
+	background-color: grey;
+	display: flex;
+	border-radius: 5px;
+}
+
+#banniere
+{
+	display: flex;
+	width: 950px;
+}
+
+.photo
+{
+	display: flex;
+	margin-left: 17px;
+	border: 1px solid #ffffff;
+	box-shadow: 2px 2px 5px #ffffff;
+}
+
+#banniere h1
+{
+	display: flex;
+	font-size: 4em;
+	color: #ffffff;
+	margin: auto;
+}
+
+/* Corps du CV / Partie blanche */
+section
+{
+	display: flex;
+	text-align: justify;
+}
+
+article
+{
+	width: 600px;
+}
+
+article h2
+{
+	background-color: #00A2E8;
+	width: 50%;
+	border-radius: 5px;
+	padding-left: 10px;
+	color: white;
+}
+
+article h3, article p
+{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/* Infos persos / Partie bleue */
+aside
+{
+	width: 350px;
+	color: white;
+	background-color: #00A2E8;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 5px;
+}
+
+aside h2
+{
+	text-decoration: underline;
+	text-align: center;
+}
+
+#icones p
+{
+	text-align: center;
+}
+
+#icones p
+{
+	height: 40px;
+}
+
+#icones img
+{
+	vertical-align: middle;
+}
+
+.floating_left
+{
+	float: left;
+	padding-left: 15px;
+	vertical-align: middle;
+}
+
+#icones a
+{
+	text-decoration: none;
+	color: white;
+}
+
+#icones a:hover
+{
+	text-decoration: underline;
+}
+
+/* Compétences / Partie bleue */
+aside h2
+{
+	clear: both;
+	margin-bottom: 40px;
+	margin-top: 80px;
+}
+
+#competences
+{
+	font-size: 20px;
+	padding-left: 15px;
+}
+
+#competences img
+{
+	margin-right: 15px;
+	border-radius: 2px;
+}
+
+.floating
+{
+	float: right;
+}
+/* Résolution mobile */
+@media all and (max-device-width: 480px)
+{
+	#bloc_page
+	{
+		width: auto;
+	}
+
+	#banniere
+	{
+		width:auto;
+	}
+
+	#banniere h1
+	{
+		font-size: 2em;
+		padding-left: 100px;
+	}
+
+	section
+	{
+		flex-direction: column;
+	}
+
+	article
+	{
+		width: 100%;
+	}
+
+	article h2
+	{
+		min-width: 100%;
+	}
+}
