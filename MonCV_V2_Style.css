@@ -146,19 +146,18 @@ aside h2
 {
 	#bloc_page
 	{
-		width: auto;
+		width: 100%;
 	}
 
 	#banniere
 	{
-		width:auto;
+		width:100%;
 	}
 
 	#banniere h1
 	{
-		width: auto;
-		font-size: 1em;
-		padding-left: 5px;
+		font-size: 2em;
+		padding-left: 15px;
 	}
 
 	section
@@ -174,5 +173,10 @@ aside h2
 	article h2
 	{
 		min-width: 100%;
+	}
+
+	aside
+	{
+		width: 100%;
 	}
 }
