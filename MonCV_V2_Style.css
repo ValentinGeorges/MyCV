@@ -172,11 +172,26 @@ aside h2
 
 	article h2
 	{
-		min-width: 100%;
+		width: auto;
 	}
 
 	aside
 	{
-		width: 100%;
+		width: auto;
+	}
+
+	#competences p
+	{
+		font-size: 0.8em;
+	}
+
+	#competences
+	{
+		margin-bottom: 35px;
+	}
+
+	#icones p:nth-child(4)
+	{
+		font-size: 0.9em;
 	}
 }
